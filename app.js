@@ -1,13 +1,13 @@
-var btnTranslate=docment.querySelectr("#btnTranslate");
-var textInput=document.querySelector("#input-txt");
-var outputDiv=document.querySelector("#output");
+var btnTranslate=docment.getElementById("btn-translate");
+var textInput=document.getElementById("input-txt");
+var outputDiv=document.getElementById("output");
 
 
-var serveURL="https://api.funtranslations.com/translate/minion.json";
+var serverURL="https://api.funtranslations.com/translate/minion.json";
 
 function getTranslationURL(input)
 {
-    return serveURL + "?" + "text=" + input
+    return serverURL + "?" + "text=" + input
 }
 
 function errorHandler(error)
