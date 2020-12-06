@@ -1,35 +1,61 @@
-.box
+@import url('https://fonts.googleapis.com/css2?family=Ranchers&display=swap');
+
+
+
+
+
+#txt-input
 {
-    width:300px;
-    height:100px;
-    border:1px solid black;
-    margin-bottom:20px;
+    border: 1px solid black;
+    height: 10vh;
+    width: 80%;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 10px;
 }
 
-.box2
+#nav-bar
 {
-    width:300px;
-    height:100px;
-    border:1px solid black;
-    margin-top:20px;
+    height:30vh;
+    width:100%;
+    background-color: black
+    
+    
 }
 
-#input-txt
+#btn-translate
 {
-   height:10vh;
-   width:80%;
-   margin:1rem;
-   padding:1rem;
-   display:black;
-
+    margin-bottom: 10px;
 }
 
+#body
+{
+    background-image:url("images/mini4.jpg");
+    font-family:  'Ranchers', cursive;
+}
 
 #output
 {
-    border:1px solid black;
-    height:10vh;
-    width:80%;
-    margin:1rem;
-    padding:1rem;
+    display:block;
+}
+
+#output {
+    border: 1px solid black;
+    height: 10vh;
+    width: 80%;
+    margin: 1rem;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 10px;
+}
+
+h1
+{
+    color:white;
+}
+ #nav-text
+{
+    color:white;
+    text-align:center;
+   
 }
